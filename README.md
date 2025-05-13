@@ -23,10 +23,6 @@ skin-disease-detection/
 │
 ├── model_training/
 │   └── train_model.py
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
 ```
 
 
