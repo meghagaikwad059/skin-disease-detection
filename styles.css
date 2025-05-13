@@ -1,0 +1,116 @@
+/* Reset and base styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    color: #2c3e50;
+    min-height: 100vh;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Main container styling */
+  .container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 700px;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Header */
+  h1 {
+    margin-bottom: 25px;
+    color: #4b3f72;
+    font-size: 2rem;
+  }
+  
+  /* Upload section */
+  .upload-section {
+    margin: 25px 0;
+  }
+  
+  .upload-label {
+    font-weight: 600;
+    margin-right: 10px;
+    color: #34495e;
+  }
+  
+  input[type="file"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Button */
+  button {
+    padding: 10px 25px;
+    margin-top: 10px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #574dcf;
+  }
+  
+  /* Image Preview */
+  .preview-section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Result Section */
+  .result-section {
+    margin-top: 30px;
+  }
+  
+  .result-section h2 {
+    color: #27ae60;
+    margin-bottom: 15px;
+  }
+  
+  .result-section p {
+    font-size: 1.1rem;
+    margin: 8px 0;
+  }
+  
+  #error {
+    color: #e74c3c;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 600px) {
+    .container {
+      padding: 25px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
